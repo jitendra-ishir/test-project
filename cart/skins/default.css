@@ -1,0 +1,107 @@
+#eb {
+    margin-left:628px;
+    position:absolute;
+    top:21px;
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    width:270px;
+    text-transform:none;
+    font-size:12px;
+}
+#eb p { 
+    padding: 0;
+    margin: 0;
+    line-height:100%
+}
+#eb #ebfooter {
+    text-align:center;
+    padding:5px 0 13px 0;
+}
+#eb #ebfooter p {
+    font-weight:900; 
+    color:LIGHTSTEELBLUE;
+}
+#eb #ebbasket {  
+    border:1px solid LIGHTSTEELBLUE;
+    padding: 0 5px 5px 5px;
+    background-color:WHITE; 
+}
+#eb .item {
+    position:relative;
+    margin-top:6px;
+    padding-bottom:6px;
+    height:60px;
+    background-color:MintCream; 
+    border-bottom:1px solid LIGHTSTEELBLUE;
+    padding:3px 3px 3px 3px;
+}
+#eb .title {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    font-weight:bold;
+}
+#eb .description {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    font-weight:100;
+}
+#eb .option {
+    font-weight:100; 
+}
+#eb .price {
+    font-weight:bold;
+} 
+#eb .itemnav {
+    position:absolute;
+    bottom:3px;
+    right:0px;
+}
+#eb .itemnav a {
+    position:absolute;
+    bottom:0px;
+    right:25px;
+}
+#eb .item img {
+    width:85px;
+    height:58px;
+    float:left;
+    padding-right:5px;
+}
+
+#eb #ebfooter a {
+    color:LIGHTSTEELBLUE;
+    text-decoration: none;
+    font-size:12px;
+    font-weight:bold;
+} 
+#eb #ebfooter a:hover {
+    color:WHITE;
+}
+#eb #totalinner {
+    font-size:12px;
+    font-weight:bold;
+	margin:6px 6px 0 0;
+    padding-bottom:6px;
+    border-bottom:1px solid LIGHTSTEELBLUE;
+    text-align:right;
+    line-height:100%
+}
+#eb #totalinner p {
+    line-height:100%
+}
+#eb #checkouts {
+    text-align:center;
+    margin-top:6px;
+}
+#eb #itemnav td {
+    text-align:center;
+}
+#eb table input {
+    width:22px;
+    text-align:center;
+} 

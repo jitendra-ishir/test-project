@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
+		<link type="text/css" rel="stylesheet" href="demo.css"/>
+		<script src="../easybasket.js"></script>
+		<meta name="easybasket" content="location=.."/>
+	</head>
+	<body>
+		<a href=".">Demo 1</a>          | <a href="demo2.html">Demo 2</a> | <a href="demo3.html">Demo 3</a> |
+		<a href="demo4.html">Demo 4</a> | <a href="demo5.html">Demo 5</a> | <a href="demo6.html">Demo 6</a>
+		
+		<h1>Easybasket Demo 6: Debug Information</h1>
+		
+		<div class="sales-item">
+			<div>Cat £10</div>
+			<form class="easybasket" method="POST" action="?basket=add">
+				<input type="hidden" name="title" value="Cat"/>
+				<input type="hidden" name="price" value="10"/>
+				<input type="submit" value="Add to basket"/>
+			</form>
+		</div>
+		
+		<div class="sales-item">
+			<div>Dog £20</div>
+			<form class="easybasket" method="POST" action="?basket=add">
+				<input type="hidden" name="title" value="Dog"/>
+				<input type="hidden" name="price" value="20"/>
+				<input type="submit" value="Add to basket"/>
+			</form>
+		</div>
+		
+		<br style="clear:both"/>
+
+		<pre class="easybasket" data-url="debug=basic">Fetching...</pre>
+
+		<div class="easybasket simpletable" data-url="skin=zzz-plain.xsl">Fetching...</div>
+
+		<!-- Nigel Alderton, 20th May 2011 -->
+	</body>
+</html>

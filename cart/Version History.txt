@@ -1,0 +1,2 @@
+beta012:
+ Minor Security Upgrade to settings.php.

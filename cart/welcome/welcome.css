@@ -1,0 +1,204 @@
+body {
+	font-family: sans-serif;
+	padding: 2em;
+	font-size:1em;
+	background:#FDFDFF;
+}
+
+.more {
+	position: absolute;
+	right: 2em;
+	top: 2em;
+}
+
+#outerWrapper {
+    margin:0 auto 0 auto; 
+    text-align:left; 
+    max-width:1000px;
+}
+
+/* Logs table */
+table.log a {
+	display: block;
+}
+
+table.log .files {
+	min-width:10em;
+}
+
+table.log td {
+	vertical-align: top;
+}
+
+
+html, {
+	overflow-y: scroll;
+}
+
+#container {
+	margin:0 auto 0 auto; 
+	padding:1em;
+    text-align:left; 
+    max-width:960px;
+	background:#FDFDFF url(leftback.gif) repeat-y left;
+}
+
+fieldset table tr:hover {
+  background-color:#C8C8C8;
+}
+
+table {
+	border-collapse:collapse;
+	text-align:left;
+	width:100%;
+}
+
+#heading  {
+	margin-bottom:2em;
+}
+
+#heading  h1{
+	margin:0;
+}
+
+#heading  h5{
+	margin:-8px 5px 5px 216px;
+}
+
+.left {
+	text-align:left;
+	width:210px;
+	color:#2D4262;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+
+.middle {
+	width:223px;
+}
+
+#add .middle {
+	text-align:right;
+}
+
+#paypal {
+	padding-top:2em;
+	border-top:1px solid #ccc;
+}
+
+fieldset {
+	border:none;
+	border-bottom:1px solid #ccc;
+	padding:1em 0;
+	margin-bottom:2em;
+	text-align:left;
+}
+
+fieldset img{
+	border:0;
+}
+td {
+	padding:3px 5px;
+	height:1.8em;
+}
+td select{
+	width:5em;
+}
+
+#head {
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:2em;
+	color:#2D4262;
+	margin-left:.9em;
+}
+a, a:link {
+    color:#2D4262;
+	text-decoration:none;
+}
+input {
+	padding:2px;
+}
+select {
+	padding:2px;
+	margin-left:2px;
+	text-transform:capitalize;
+}
+td img {
+	margin:0;
+	padding:0;
+}
+
+h4 {
+	margin:0;
+	padding:0;
+}
+.submit {
+	text-align:right;
+	padding:.5em;
+	margin:0 0 1em 0;
+	text-align:center;
+}
+.logo {
+    color:DarkSlateBlue; 
+}
+#heading {
+	border-bottom:1px dotted #ccc;
+}
+
+.help {
+	font-size:.8em;
+}
+
+#logout {
+	margin:-75px 0 0 120px;
+}
+
+th {
+	background:#5275AA;
+	color:white;
+	padding:.5em;
+}
+
+code {
+	margin:4em;
+	font-size:140%;
+}
+
+.ok,
+.bad,
+.mono {
+	font-family:monospace;
+	font-size:140%;
+}
+
+.pass {
+	color:green;
+}
+
+.fail{
+	color:red;
+}
+
+.title {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bubble {
+	width: 9em;
+	height: 4em;
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 4em;
+	position: absolute;
+	border: .25em solid black;
+	border-radius: .5em;
+	margin-top: -5em;
+	margin-left: -1.2em;
+	background: black;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	text-align:center
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
+		<link type="text/css" rel="stylesheet" href="demo.css"/>
+		<script src="../easybasket.js"></script>
+		<meta name="easybasket" content="location=.."/>
+	</head>
+	<body>
+		<a href=".">Demo 1</a>          | <a href="demo2.html">Demo 2</a> | <a href="demo3.html">Demo 3</a> |
+		<a href="demo4.html">Demo 4</a> | <a href="demo5.html">Demo 5</a> | <a href="demo6.html">Demo 6</a>
+		
+		<h1>Easybasket Demo 4: Options and Quantity</h1>
+		
+		<div class="sales-item">
+			<div>Cat £10</div>
+			<form class="easybasket" method="POST" action="?basket=add">
+				<input type="hidden" name="title" value="Cat"/>
+				<input type="hidden" name="price" value="10"/>
+				<select name="colour">
+					<option value="Black">Black</option>
+					<option value="White">White</option>
+					<option value="Tabby">Tabby</option>
+				</select>
+				<input type="submit" value="Add to basket"/>
+			</form>
+		</div>
+		<div class="sales-item">
+			<div><a href="dog.html">Dog £20</a></div>
+			<form class="easybasket" method="POST" action="?basket=add">
+				<input type="hidden" name="title" value="Dog"/>
+				<input type="hidden" name="price" value="20"/>
+				<input class='input' type='text' name='qty' value='1' size='1'/>
+				<input type="submit" value="Add to basket"/>
+			</form>
+		</div>
+		<div class="sales-item">
+			<div><a href="emu.html">Emu £50</a></div>
+			<form class="easybasket" method="POST" action="?basket=add">
+				<input type="hidden" name="title" value="Emu"/>
+				<input type="hidden" name="price" value="50"/>
+				<select name="size">
+					<option value="L">Tall</option>
+					<option value="XL">Very tall</option>
+					<option value="XXL">XX tall</option>
+				</select>
+				<input type="submit" value="Add to basket"/>
+			</form>
+		</div>
+
+		<div class="skin easybasket simpletable" data-url="skin=full-fat.xsl">Fetching...</div>
+		
+		<!-- Nigel Alderton, 20th May 2011 -->
+	</body>
+</html>

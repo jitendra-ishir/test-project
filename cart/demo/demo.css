@@ -1,0 +1,71 @@
+body {
+	font-family: sans-serif;
+	padding: 1em 2em;
+}
+
+.sales-item {
+	float: left;
+	margin: 0 2em 0 0;
+	text-align: center;
+	margin: 1em;
+}
+
+.sales-item img {
+	max-height: 8em;
+}
+
+.skin {
+	clear: both;
+	xpadding: 0 2em 2em;
+	padding: 1em;
+}
+
+/* ##################################
+teeny
+################################## */
+.tab {
+	padding: .25em .5em;
+	background: white;
+	border: 2px solid #777;
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+}
+
+.tab .total {
+	font-weight: bold;
+}
+
+.tab .quantity {
+	border: 1px solid black;
+	border-radius: 1em;
+	padding: 0 .25em;
+	background: green;
+	color: white;
+}
+
+/* ##################################
+simpletable 
+################################## */
+
+.easybasket table {
+	xfloat: left;
+	background: #eef;
+    border-collapse: collapse;
+    xwidth: 100%;
+}
+
+.easybasket td {
+	border-left: 1px dotted #CCC;   
+	border-bottom: 1px dotted #CCC;   
+	padding: .25em;
+}
+
+.easybasket th {
+	padding: .3em;
+	background: #5275AA;
+	color: white;
+}
+
+.easybasket tr {
+	border-right: 1px dotted #CCC;   
+}
